@@ -1,0 +1,9 @@
+Daily Git Lifecycle Workflow:
+1. git status
+   Inspect current modifications, staged files, and untracked files in the working directory.
+2. git add <filename>
+   Move verified files from the working directory to the staging area.
+3. git commit -m "feat/fix: descriptive message"
+   Record an immutable snapshot of staged changes into the local repository history.
+4. git push origin main
+   Upload and synchronize local commits with the remote GitHub repository.
